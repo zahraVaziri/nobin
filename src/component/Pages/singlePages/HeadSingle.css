@@ -1,0 +1,7 @@
+.nav-single{
+position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 333;
+    left: 0;
+}

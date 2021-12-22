@@ -1,0 +1,265 @@
+.bg-single-head{
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-single-head::after{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url('https://nobin.tv/wp-content/themes/nobin-v2/img/curve.svg') no-repeat center bottom;
+    z-index: 555;
+    height: 100%;
+    background-size: 100%;
+}
+.right-col{
+    position: sticky;
+    top: 30px;
+}
+
+/* .card-right-slide .card:first-of-type ::after {
+   content: '';
+   height: 1px;
+   width: 100%;
+   background: linear-gradient(90deg, rgba(210,210,210,0) 0%, rgba(210,210,210,1) 25%, rgba(210,210,210,1) 75%, rgba(210,210,210,0) 100%);;
+   position: absolute;
+   left: 0;
+   right: 0;
+
+} */
+.card-right-slide .card::after {
+   content: '';
+   height: 1px;
+   width: 100%;
+   background: linear-gradient(90deg, rgba(210,210,210,0) 0%, rgba(210,210,210,1) 25%, rgba(210,210,210,1) 75%, rgba(210,210,210,0) 100%);;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-bottom: .5rem;
+  
+
+} 
+
+
+
+.card-right-slide:hover h5{
+    color: rgb(68 142 246);
+}
+.bg-news-slide{
+    background: linear-gradient(172deg, rgba(123,126,229,1) 0%, rgba(64,151,255,1) 100%);
+    display: flex;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+   padding: 10px;
+}
+.bg-news-slide i{
+     padding-left: 10px !important;
+     color: #fff;
+}
+.bg-news-slide h6{
+      color: #fff;
+     margin: 0!important;
+}
+.card-h5{
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.card-p{
+    display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.card{
+    border: none !important;
+}
+.img-right-slide{
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 0 1rem 1rem 1rem !important;
+    -webkit-border-radius: 0 1rem 1rem 1rem !important;
+    -moz-border-radius: 0 1rem 1rem 1rem !important;
+    -ms-border-radius: 0 1rem 1rem 1rem !important;
+    -o-border-radius: 0 1rem 1rem 1rem !important;
+    object-fit: cover;
+}
+
+
+.texts-col{
+    padding-right: 1rem !important;
+}
+
+.content-way{
+    background:linear-gradient(172deg, rgba(123,126,229,1) 0%, rgba(64,151,255,1) 100%);
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.content-way i{
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0 5px;
+}
+
+.swiper-slide img{
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+.bg-instagram{
+    background: linear-gradient(270deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   
+    margin: 30px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+
+.bg-instagram i{
+    font-size: 3.5rem;
+    color: #fff;
+    padding: 20px;
+}
+
+.bg-instagram p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 20px;
+}
+.bg-instagram button{
+    margin-left: 20px;
+   
+}
+
+.bg-instagram .col-lg-7{
+    display: flex;
+    align-items: center;
+}
+.bg-instagram .col-lg-4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.title-single{
+    padding: 0 0 0 1.5rem!important;
+}
+.text-org p{
+ font-size: 1rem;
+ font-weight: bold;
+ color: #232323;
+ text-align: justify;
+}
+
+.title-card-product{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.parant-iframe{
+    background:linear-gradient(30deg, rgb(220 ,50 ,50) 0%, rgb(30 ,115, 190) 100%);
+}
+.row-filimo{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bg-filimo-slide{
+    background:linear-gradient(30deg, rgb(220, 50,50) 0%, rgb(30 ,115, 190) 100%);
+    display: flex;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.bg-filimo-slide:hover{
+    box-shadow:0 4px 10px 0 rgb(0 0 0 / 20%) ;  
+}
+.bg-filimo-slide i{
+     padding: 10px !important;
+     color: #fff;
+     font-size: 20px;
+}
+.bg-filimo-slide h6{
+     padding: 10px 0 5px 2px !important;
+      color: #fff;
+     margin: 0!important;
+}
+
+.contact-icon i img{
+    color: rgb(48, 28, 28) !important;
+}
+
+.contact-icon i:hover{
+    color: rgb(210, 30, 60) !important;
+}
+
+.card:hover .card-img-overlay{
+    background-color: rgba(207, 126, 207, 0.205);
+    
+     border-radius: 1rem 1rem 0 1rem !important ;
+    -webkit-border-radius: 1rem 1rem 0 1rem !important ;
+    -moz-border-radius: 1rem 1rem 0 1rem !important ;
+    -ms-border-radius: 1rem 1rem 0 1rem !important ;
+    -o-border-radius: 1rem 1rem 0 1rem !important ;
+}
+
+.card:hover .card-img-overlay i{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.img-card-slider img{
+    border-radius: 1rem 1rem 0 1rem !important ;
+    -webkit-border-radius: 1rem 1rem 0 1rem !important ;
+    -moz-border-radius: 1rem 1rem 0 1rem !important ;
+    -ms-border-radius: 1rem 1rem 0 1rem !important ;
+    -o-border-radius: 1rem 1rem 0 1rem !important ;
+}
+
+@media screen and (max-width: 992px){
+    .bg-news-slide{
+        margin: 1rem 0;
+    }
+    .content-way div{
+        justify-content: center;
+    }
+    .bg-instagram div{
+        justify-content: center;
+    }
+    .bg-instagram .icon-insta-center{
+        text-align: center !important;
+    }
+    .bg-instagram button{
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,196 @@
+.bg-navbar{
+    background-color: transparent;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+
+}
+
+.header-brand{
+    padding-left: 15px;
+}
+.header-brand img{
+    height: 60px;
+    width: auto;
+}
+.ul-nav-homepage{
+    display: flex;
+    padding-top: 15px;
+}
+
+.ul-nav-homepage li {
+    padding: 0 15px;
+    white-space: nowrap;
+    position: relative;
+}
+.ul-nav-homepage li::after{
+    content: '';
+    width: 2px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.ul-nav-homepage li:last-of-type::after {
+    display: none;
+}
+.ul-nav-homepage li a{
+    color: white !important;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.grid-left-nav{
+    display: flex;
+    
+    align-items: center;
+}
+
+.grid-left-nav form{
+    position: relative;
+    margin: 0 !important;
+}
+
+.grid-left-nav input {
+    font-size: 16px !important;
+    border-radius: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+    margin: 0px;
+    color: #999999 !important;
+    padding: 6px 35px;
+}
+
+.grid-left-nav form i{
+    position: absolute;
+    right: 6px;
+    top: 32%;
+    transform: translate(-50%);
+    color: #999999;
+    font-size: 15px;
+}
+.nav-link {
+     padding: 0 !important;
+
+}
+.social-header i{
+    padding: 0 5px ;
+    color: #ffffff !important;
+    font-size: 30px !important;
+}
+.social-header i:hover{
+    color: rgba(0,0,0,.55) !important;
+}
+
+.carousel-indicators{
+    display: none !important;
+}
+
+.mySwiper img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-header{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: white;
+    z-index: 33;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    box-shadow: 0 6px 30px 0 rgba(148, 147, 147, 0.4);
+    padding: 0.5rem 2rem;
+    width: 60%;
+}
+.carousel::after{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url('https://nobin.tv/wp-content/themes/nobin-v2/img/curve.svg') no-repeat center bottom;
+    z-index: 2;
+    height: 30%;
+    background-size: 100%;
+}
+.nav-swiper{
+    width: 118px;
+    height: auto;
+}
+
+.text-end-nav{
+    display: flex;
+    align-items: center;
+
+}
+
+/* --------------- responsive ------------------ */
+
+@media screen and (max-width: 900px){
+   .text-end-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+    
+}}
+
+@media screen and (max-width: 768px){
+    .swiper-header{
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        padding: 0.5rem 1rem;
+        width: 40%;
+}
+}
+
+
+@media (max-width: 600px){
+
+    .css-16f9p7-MuiGrid-root {
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        max-width: 100%;
+
+}}
+
+@media screen and (max-width: 560px){
+    .ul-nav-homepage{
+        display: flex;
+        flex-direction: column !important;
+}
+}
+    
+@media screen and (max-width: 500px){
+    .swiper-header{
+        width: 30%;
+    }
+    .header-brand img{
+    height: 38px;
+    
+}
+}

@@ -1,0 +1,68 @@
+.footer{
+    position: relative;
+    width: 100%;
+    background: rgb(50,52,117);
+    background: -moz-linear-gradient(30deg, rgba(50,52,117,1) 0%, rgba(1,57,127,1) 100%);
+    background: -webkit-linear-gradient(30deg, rgba(50,52,117,1) 0%, rgba(1,57,127,1) 100%);
+    background: linear-gradient(30deg, rgba(50,52,117,1) 0%, rgba(1,57,127,1) 100%);
+    min-height: 100px;
+    margin-top: 30px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.footer::after{
+    
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url('https://nobin.tv/wp-content/themes/nobin-v2/img/curve2.svg') no-repeat center top;
+    height: 100%;
+    background-size: 100%;
+    z-index: 2;
+}
+
+.nobin-footer-logo{
+
+}
+
+.nobin-footer-logo{
+border-bottom: 1px solid #ffffff;
+margin-bottom: 16px;
+
+}
+
+.social-icon .i{
+    color: #ffffff;
+    margin: 0 4px;
+    padding: 0 2px;
+}
+.about-footer p{
+ font-size: 18px !important;
+}
+
+.parent-map{
+    position: relative;
+    
+    overflow: hidden;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    background-color: #ffffff;
+    min-height: 50px;
+    margin-bottom: 1rem;
+}
+    
+
+    .footer-end{
+        background-color: #000;
+        padding: 15px 0;
+        
+    }
+
+     .footer-end h6{
+       text-align: center;
+       color: #ffffff;
+    }

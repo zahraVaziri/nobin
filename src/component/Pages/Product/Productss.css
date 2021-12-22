@@ -1,0 +1,62 @@
+.product-item {
+    justify-content: center !important;
+}
+
+.product-item .card{
+    border-radius: 1rem 1rem 0 1rem !important ;
+    -webkit-border-radius: 1rem 1rem 0 1rem !important ;
+    -moz-border-radius: 1rem 1rem 0 1rem !important ;
+    -ms-border-radius: 1rem 1rem 0 1rem !important ;
+    -o-border-radius: 1rem 1rem 0 1rem !important ;
+}
+ .product-item .card:hover .card-img-overlay{
+    background-color: blueviolet;
+    opacity: 0.4;
+     border-radius: 1rem 1rem 0 1rem !important ;
+    -webkit-border-radius: 1rem 1rem 0 1rem !important ;
+    -moz-border-radius: 1rem 1rem 0 1rem !important ;
+    -ms-border-radius: 1rem 1rem 0 1rem !important ;
+    -o-border-radius: 1rem 1rem 0 1rem !important ;
+}
+ .product-item .card .card-img-top{
+    border-radius: 1rem 1rem 0 1rem !important ;
+    -webkit-border-radius: 1rem 1rem 0 1rem !important ;
+    -moz-border-radius: 1rem 1rem 0 1rem !important ;
+    -ms-border-radius: 1rem 1rem 0 1rem !important ;
+    -o-border-radius: 1rem 1rem 0 1rem !important ;
+}
+
+ .product-item .card .card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link{
+    border: #fff 2px solid ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: none;
+}
+
+.card .card-img-overlay i{
+    color: #fff;
+    font-size: 2rem;
+    display: none;
+    z-index: 33;
+    padding: 6px;
+}
+ .card .card-img-overlay:hover i{
+    display: block;
+}
+.card .card-img-overlay:hover .icon-link{
+    display: block;
+}
+
+.caption{
+    text-align: center;
+    padding: 0.70rem 0;
+}

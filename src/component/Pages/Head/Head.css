@@ -1,0 +1,33 @@
+.bg-head{
+    background: linear-gradient(30deg, rgba(233,2,143,0.8) 0%, rgba(68,142,246,0.8) 100%);
+    background: -webkit-linear-gradient(30deg, rgba(233,2,143,0.8) 0%, rgba(68,142,246,0.8) 100%);
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-head::after{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url('https://nobin.tv/wp-content/themes/nobin-v2/img/curve.svg') no-repeat center bottom;
+    z-index: 555;
+    height: 100%;
+    background-size: 100%;
+}
+
+
+
+@media (max-width: 600px){
+
+  .bg-head{
+    height: 30vh;
+}}

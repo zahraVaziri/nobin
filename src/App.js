@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter,Switch,Route } from "react-router-dom";
+import { LayoutProvider } from "./component/context/LayoutContext";
+import Layout from "./component/Layout/Layout";
+import Main from "./component/Main/Main";
+import Navbar from "./component/navbar/Navbar";
+import About from "./component/Pages/About/About";
+import News from "./component/Pages/News/News";
+import Productss from "./component/Pages/Product/Productss";
+import Output from "./component/Pages/singlePages/output/Output";
+import LastNews from "./component/Pages/singlePages/output/LastNews";
 
-function App() {
+const App =() => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+       <BrowserRouter>
+      <LayoutProvider>
+        <Route path='/' render={() =>
+        <Layout>
+          <Switch>
+            <Route exact path={'/'} component={Main}/>
+            <Route path={'/about'} component={About}/>
+            <Route path={'/Productss'} component={Productss}/>
+             <Route path={'/news'} component={News}/>
+            <Route path={'/detail/:id'} component={Output}/>
+              <Route path={'/lastNews/:id'} component={LastNews}/>
+            
+          </Switch>
+        </Layout>
+        }/>
+      
+      </LayoutProvider>
+      </BrowserRouter>
     </div>
   );
 }
